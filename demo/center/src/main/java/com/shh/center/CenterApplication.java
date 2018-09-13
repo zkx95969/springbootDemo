@@ -3,6 +3,7 @@ package com.shh.center;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 /**
  * 主入口
  */
