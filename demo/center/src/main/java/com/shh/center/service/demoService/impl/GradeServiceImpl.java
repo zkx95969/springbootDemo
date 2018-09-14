@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Service
 @Transactional(rollbackFor = Exception.class)
-public class gradeServiceImpl implements GradeService{
+public class GradeServiceImpl implements GradeService{
     @Autowired
     private GradeRepository gradeRepository;
 
