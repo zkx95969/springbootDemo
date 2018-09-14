@@ -1,4 +1,4 @@
-package com.shh.center.controller;
+package com.shh.center.controller.demoController;
 
 import com.shh.center.entity.Grade;
 import com.shh.center.entity.Student;

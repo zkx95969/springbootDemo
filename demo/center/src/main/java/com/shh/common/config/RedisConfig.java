@@ -10,10 +10,10 @@ import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 
 /**
- * @Description:
- * @Author: wujun
- * @CreateDate: 2018/9/14 10:17
- * @Version: 1.0
+ * @description : 3
+ * @author : wujun
+ * @date  : 2018/9/14 10:17
+ * @version : 1.0
  */
 @Configuration
 @EnableCaching//开启注解
