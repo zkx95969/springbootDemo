@@ -1,9 +1,6 @@
-package com.shh.center.service;
+package com.shh.center.service.demoService;
 
-import com.shh.center.entity.Grade;
-import com.shh.center.entity.Student;
-
-import java.util.List;
+import com.shh.center.entity.demoEntity.Grade;
 
 /**
  * @description :

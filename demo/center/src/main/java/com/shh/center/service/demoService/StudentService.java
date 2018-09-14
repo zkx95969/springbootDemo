@@ -1,6 +1,6 @@
-package com.shh.center.service;
+package com.shh.center.service.demoService;
 
-import com.shh.center.entity.Student;
+import com.shh.center.entity.demoEntity.Student;
 
 import java.util.List;
 

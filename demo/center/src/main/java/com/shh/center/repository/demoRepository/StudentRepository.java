@@ -1,6 +1,6 @@
-package com.shh.center.repository;
+package com.shh.center.repository.demoRepository;
 
-import com.shh.center.entity.Student;
+import com.shh.center.entity.demoEntity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

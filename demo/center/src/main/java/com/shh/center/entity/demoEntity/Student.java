@@ -1,11 +1,10 @@
-package com.shh.center.entity;
+package com.shh.center.entity.demoEntity;
 import org.hibernate.annotations.NotFound;
 import org.hibernate.annotations.NotFoundAction;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
-import java.util.Set;
 
 /**
  * @author wj

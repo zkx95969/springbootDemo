@@ -1,4 +1,4 @@
-package com.shh.center.entity;
+package com.shh.center.entity.demoEntity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.NotFound;

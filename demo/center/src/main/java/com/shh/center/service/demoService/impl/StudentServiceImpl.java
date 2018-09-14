@@ -1,8 +1,8 @@
-package com.shh.center.service.impl;
+package com.shh.center.service.demoService.impl;
 
-import com.shh.center.entity.Student;
-import com.shh.center.repository.StudentRepository;
-import com.shh.center.service.StudentService;
+import com.shh.center.entity.demoEntity.Student;
+import com.shh.center.repository.demoRepository.StudentRepository;
+import com.shh.center.service.demoService.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

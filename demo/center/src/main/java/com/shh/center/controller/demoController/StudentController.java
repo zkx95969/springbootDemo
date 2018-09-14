@@ -1,9 +1,9 @@
 package com.shh.center.controller.demoController;
 
-import com.shh.center.entity.Grade;
-import com.shh.center.entity.Student;
-import com.shh.center.service.GradeService;
-import com.shh.center.service.StudentService;
+import com.shh.center.entity.demoEntity.Grade;
+import com.shh.center.entity.demoEntity.Student;
+import com.shh.center.service.demoService.GradeService;
+import com.shh.center.service.demoService.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
