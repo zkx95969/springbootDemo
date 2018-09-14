@@ -10,28 +10,32 @@ import java.util.concurrent.TimeUnit;
  */
 public interface RedisService {
     /**
+     * 增加键 无时间限制
      * @param key key
      * @param value value
      */
     void set(String key, Object value);
-
     /**
-     * @param key key
-     * @return value
-     */
-    Object get(String key);
-
-    /**
-     * @param key key
-     */
-    void remove(String key);
-
-    /**
+     * 增加键 有时间限制
      * @param key key
      * @param value value
      * @param num 时间数
      * @param timeUnit 时间单位,例：TimeUnit.SECONDS 为秒
      */
     void set(String key , Object value,Integer num,TimeUnit timeUnit);
+    /**
+     * 取得键
+     * @param key key
+     * @return value
+     */
+    Object get(String key);
+
+    /**
+     * 删除键
+     * @param key key
+     */
+    void remove(String key);
+
+
 
 }

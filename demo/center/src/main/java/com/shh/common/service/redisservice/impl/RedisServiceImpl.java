@@ -24,6 +24,11 @@ public class RedisServiceImpl implements RedisService{
         ValueOperations<String,Object> vo = redisTemplate.opsForValue();
         vo.set(key,value);
     }
+    @Override
+    public void set(String key, Object value, Integer num, TimeUnit timeUnit) {
+        ValueOperations<String,Object> vo = redisTemplate.opsForValue();
+        vo.set(key,value,num, timeUnit);
+    }
 
     @Override
     public Object get(String key) {
@@ -36,9 +41,5 @@ public class RedisServiceImpl implements RedisService{
         redisTemplate.delete(key);
     }
 
-    @Override
-    public void set(String key, Object value, Integer num, TimeUnit timeUnit) {
-        ValueOperations<String,Object> vo = redisTemplate.opsForValue();
-        vo.set(key,value,num, timeUnit);
-    }
+
 }
