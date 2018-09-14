@@ -10,9 +10,9 @@ import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 
 /**
- * @description : 3
+ * @description :
  * @author : wujun
- * @date  : 2018/9/14 10:17
+ * @date : 2018/9/13 14:50
  * @version : 1.0
  */
 @Configuration

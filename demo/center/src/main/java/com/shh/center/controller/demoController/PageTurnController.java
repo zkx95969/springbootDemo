@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @Description:
- * @Author: wujun
- * @CreateDate: 2018/9/14 8:52
- * @Version: 1.0
+ * @description :
+ * @author : wujun
+ * @date : 2018/9/13 14:50
+ * @version : 1.0
  */
 @Controller
 public class PageTurnController {

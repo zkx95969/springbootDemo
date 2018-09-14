@@ -13,10 +13,10 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * @Description:
- * @Author: wujun
- * @CreateDate: 2018/9/13 15:06
- * @Version: 1.0
+ * @description :
+ * @author : wujun
+ * @date : 2018/9/13 14:50
+ * @version : 1.0
  */
 @Service
 @Transactional(rollbackFor = Exception.class)

@@ -3,10 +3,10 @@ package com.shh.common.service.redisservice;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Description:
- * @Author: wujun
- * @CreateDate: 2018/9/14 10:29
- * @Version: 1.0
+ * @description :
+ * @author : wujun
+ * @date : 2018/9/13 14:50
+ * @version : 1.0
  */
 public interface RedisService {
     /**

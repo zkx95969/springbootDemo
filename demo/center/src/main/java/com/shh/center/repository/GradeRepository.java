@@ -10,10 +10,10 @@ import org.springframework.data.repository.query.Param;
 import java.util.List;
 
 /**
- * @Description:
- * @Author: wujun
- * @CreateDate: 2018/9/13 14:50
- * @Version: 1.0
+ * @description:
+ * @author : wujun
+ * @date : 2018/9/13 14:50
+ * @version : 1.0
  */
 public interface GradeRepository extends JpaRepository<Grade,Long> {
 }
