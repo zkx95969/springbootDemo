@@ -1,4 +1,4 @@
-package com.shh.center.controller.demoController;
+package com.shh.center.controller.demo;
 
 import com.shh.common.service.redisservice.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;

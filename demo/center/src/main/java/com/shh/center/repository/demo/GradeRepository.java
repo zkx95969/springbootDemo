@@ -1,6 +1,6 @@
-package com.shh.center.repository.demoRepository;
+package com.shh.center.repository.demo;
 
-import com.shh.center.entity.demoEntity.Grade;
+import com.shh.center.entity.demo.Grade;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

@@ -1,4 +1,4 @@
-package com.shh.center.entity.demoEntity;
+package com.shh.center.entity.demo;
 import org.hibernate.annotations.NotFound;
 import org.hibernate.annotations.NotFoundAction;
 

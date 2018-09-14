@@ -1,4 +1,4 @@
-package com.shh.center.controller.demoController;
+package com.shh.center.controller.demo;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
