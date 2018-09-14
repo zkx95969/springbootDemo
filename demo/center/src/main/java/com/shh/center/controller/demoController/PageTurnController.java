@@ -32,4 +32,8 @@ public class PageTurnController {
         model.addAttribute("sex",sex);
         return "/demo/"+page;
     }
+    @RequestMapping("/error/{page}")
+    public String error(@PathVariable("page")String page, Model model){
+        return "/error/"+page;
+    }
 }
