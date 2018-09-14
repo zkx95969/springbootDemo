@@ -39,6 +39,7 @@ public class StudentController {
     }
     @RequestMapping("/findAll")
     public List<Student> findAll(){
+        System.out.println("----------------------------------");
         return studentService.findAllStu();
     }
     @RequestMapping("/insert")

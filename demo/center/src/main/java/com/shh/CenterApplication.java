@@ -1,4 +1,4 @@
-package com.shh.center;
+package com.shh;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
