@@ -58,4 +58,14 @@ public class Grade implements Serializable{
     public void setStudents(Set<Student> students) {
         this.students = students;
     }
+
+    @Override
+    public String toString() {
+        return "Grade{" +
+                "id=" + id +
+                ", num='" + num + '\'' +
+                ", name='" + name + '\'' +
+                ", students=" + students +
+                '}';
+    }
 }

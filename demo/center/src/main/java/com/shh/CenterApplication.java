@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
 
 /**
  * 主入口
+ * @author wj
  */
 @SpringBootApplication
 public class CenterApplication {

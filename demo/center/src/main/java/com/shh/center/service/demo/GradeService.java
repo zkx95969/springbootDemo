@@ -9,5 +9,10 @@ import com.shh.center.entity.demo.Grade;
  * @version : 1.0
  */
 public interface GradeService {
+    /**
+     * 查询一个
+     * @param id
+     * @return
+     */
     Grade findOne(Long id);
 }
