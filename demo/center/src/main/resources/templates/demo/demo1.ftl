@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1 id="tr"></h1><br/>
-<a href="/redisDemo"><h1>redisDemo</h1></a><br/>
+<a href="/redisDemo"><h1>跳转redisDemo</h1></a><br/>
 <img src="${base}/static/image/demo/tree.jpg">
 <br/>
 </body>

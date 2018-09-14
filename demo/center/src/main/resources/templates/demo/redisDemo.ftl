@@ -10,10 +10,13 @@
     <script src="${base}/static/js/jquery/jquery-1.8.2.min.js"></script>
 </head>
 <body>
-<input type="text" id="key" placeholder="key"/><br/>
-<input type="text" id="value" placeholder="value"><br/>
-<input type="button" id="set" value="set"/>&nbsp;&nbsp;&nbsp;<input id="get" type="button" value="get"/><br/>&nbsp;&nbsp;&nbsp;<input id="remove" type="button" value="remove"/>
-<h1 id="result"></h1>
+<div style="text-align: center;padding-top: 10%">
+    <input type="text" id="key" placeholder="key"/><br/>
+    <input type="text" id="value" placeholder="value"><br/>
+    <input type="button" id="set" value="set"/>&nbsp;&nbsp;&nbsp;<input id="get" type="button" value="get"/><br/>&nbsp;&nbsp;&nbsp;<input id="remove" type="button" value="remove"/>
+    <h1 id="result"></h1>
+</div>
+
 </body>
 <script>
     //redis set
@@ -27,7 +30,7 @@
             datatype:"json",
             type:"post",
             success:function(data){
-                alert("success");
+                $("#result").html("添加成功");
             },
             error:function(data){
                 alert("请求失败，请重试");
@@ -44,7 +47,12 @@
             datatype:"json",
             type:"post",
             success:function(data){
-                $("#result").html(data);
+                if(data==null||data==""){
+                    $("#result").html("无值");
+                }else{
+                    $("#result").html("取得值为:"+data);
+                }
+
             },
             error:function(data){
                 alert("请求失败，请重试");
@@ -61,7 +69,7 @@
             datatype:"json",
             type:"post",
             success:function(data){
-                alert("success");
+                $("#result").html("删除成功");
             },
             error:function(data){
                 alert("请求失败，请重试");

@@ -6,6 +6,6 @@
 </head>
 <body>
 <h1>Hello ${name} from resource freemark!</h1>
-<a href="${base}/demo1">1111111111111111</a>
+<a href="${base}/demo1"><h1>跳转demo1页面</h1></a>
 </body>
 </html>
