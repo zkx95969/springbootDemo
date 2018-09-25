@@ -8,13 +8,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @description : 读取配置文件 @PropertySource("classpath:config/config.yml")为配置文件地址,@Value("${name}")为读取的属性
+ * @description : 读取配置文件 @PropertySource(value = "classpath:config/config.yml",encoding = "UTF-8")value为配置文件地址,encodingWie编码格式
+ * 注解@Value("${name}")为读取的属性
  * @author : wujun
  * @date : 2018/9/13 14:50
  * @version : 1.0
  */
 @Controller
-@PropertySource("classpath:config/config.yml")
+@PropertySource(value = "classpath:config/config.yml",encoding = "UTF-8")
 public class PageTurnController {
     @Value("${name}")
     private String name;

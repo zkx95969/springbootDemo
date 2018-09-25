@@ -1,4 +1,4 @@
-#\u6CE8\uFF0C\u53D8\u91CF\uFF1A\u540E\u6709\u4E00\u82F1\u6587\u7A7A\u683C
-name: \u5434\u519B
+#变量名冒号后有一个英文的空格
+name: 吴军
 age: 33
-sex: \u7537
+sex: 男
